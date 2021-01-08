@@ -171,7 +171,7 @@ public class MainWindow extends javax.swing.JFrame implements Listener
         		 System.out.println(today);      		        
         		 SimpleDateFormat date = new SimpleDateFormat("yyyyMMdd");
 
-        		 String fp = saveFilePath+"\\"+date.format(today);
+        		 String fp = saveFilePath+File.separator+date.format(today);
         		 File Folder = new File(fp);
         		 
         		 try
