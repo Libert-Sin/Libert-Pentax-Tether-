@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WhiteBalance Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/WhiteBalance" class="dashAnchor"></a>
+    <a title="WhiteBalance Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">RICOHCameraWirelessSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">RICOHCameraWirelessSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        WhiteBalance Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Api.html">Api</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraDevice.html">CameraDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceDetector.html">CameraDeviceDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraEventListener.html">CameraEventListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraImage.html">CameraImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CameraSDKError.html">CameraSDKError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraStatus.html">CameraStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraStorage.html">CameraStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Capture.html">Capture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CaptureState.html">CaptureState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceInterface.html">DeviceInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageFormat.html">ImageFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageType.html">ImageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StorageListImagesState.html">StorageListImagesState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StoragePermission.html">StoragePermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StorageType.html">StorageType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Response.html">Api.Response</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Response.html">Response</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartCaptureResponse.html">StartCaptureResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Setting.Camera.html">Api.Setting.Camera</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceSetting.html">CameraDeviceSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceSetting/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraTime.html">CameraTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraTime/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html#/s:22RICOHCameraWirelessSDK7ChannelC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Api.Setting.Camera.html#/s:22RICOHCameraWirelessSDK22DeviceInterfaceSettingC">DeviceInterfaceSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DualCardSlotsMode.html">DualCardSlotsMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DualCardSlotsMode.html#/s:22RICOHCameraWirelessSDK17DualCardSlotsModeC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html">Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html#/s:22RICOHCameraWirelessSDK3KeyC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSID.html">SSID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSID.html#/s:22RICOHCameraWirelessSDK4SSIDC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Api.Setting.Camera.html#/s:22RICOHCameraWirelessSDK11WLANSettingC">WLANSetting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Setting.Capture.html">Api.Setting.Capture</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureMethod.html">CaptureMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureMethod.html#/s:22RICOHCameraWirelessSDK13CaptureMethodC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureSetting.html">CaptureSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureSetting/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomImage.html">CustomImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomImage.html#/s:22RICOHCameraWirelessSDK11CustomImageC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalFilter.html">DigitalFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalFilter.html#/s:22RICOHCameraWirelessSDK13DigitalFilterC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExposureCompensation.html">ExposureCompensation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExposureCompensation.html#/s:22RICOHCameraWirelessSDK20ExposureCompensationC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FNumber.html">FNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FNumber.html#/s:22RICOHCameraWirelessSDK7FNumberC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ISO.html">ISO</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ISO.html#/s:22RICOHCameraWirelessSDK3ISOC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieCaptureFormat.html">MovieCaptureFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieCaptureFormat.html#/s:22RICOHCameraWirelessSDK18MovieCaptureFormatC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShutterSpeed.html">ShutterSpeed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShutterSpeed.html#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageCaptureFormat.html">StillImageCaptureFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageCaptureFormat.html#/s:22RICOHCameraWirelessSDK23StillImageCaptureFormatC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageQuality.html">StillImageQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageQuality.html#/s:22RICOHCameraWirelessSDK17StillImageQualityC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteBalance.html">WhiteBalance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteBalance.html#/s:22RICOHCameraWirelessSDK12WhiteBalanceC5ValueC">– Value</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:22RICOHCameraWirelessSDK2eeoiSbAA12CameraDevice_p_AaC_ptF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>WhiteBalance</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">WhiteBalance</span><span class="p">:</span> <span class="kt"><a href="../Classes/CaptureSetting.html">CaptureSetting</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>This class for setting of white balance.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC9undefinedACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/undefined" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC9undefinedACvZ">undefined</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">undefined</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">undefined</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC4autoACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/auto" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC4autoACvZ">auto</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">auto</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">auto</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC9multiAutoACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/multiAuto" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC9multiAutoACvZ">multiAuto</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">multiAuto</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">multiAuto</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC8daylightACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/daylight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC8daylightACvZ">daylight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">daylight</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">daylight</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC8tungstenACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/tungsten" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC8tungstenACvZ">tungsten</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">tungsten</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">tungsten</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC5shadeACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/shade" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC5shadeACvZ">shade</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shade</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">shade</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC6cloudyACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/cloudy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC6cloudyACvZ">cloudy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">cloudy</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">cloudy</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC19fluorescentDaylightACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/fluorescentDaylight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC19fluorescentDaylightACvZ">fluorescentDaylight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">fluorescentDaylight</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">fluorescentDaylight</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC019fluorescentDaylightD0ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/fluorescentDaylightWhite" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC019fluorescentDaylightD0ACvZ">fluorescentDaylightWhite</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">fluorescentDaylightWhite</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">fluorescentDaylightWhite</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC015fluorescentCoolD0ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/fluorescentCoolWhite" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC015fluorescentCoolD0ACvZ">fluorescentCoolWhite</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">fluorescentCoolWhite</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">fluorescentCoolWhite</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC015fluorescentWarmD0ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/fluorescentWarmWhite" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC015fluorescentWarmD0ACvZ">fluorescentWarmWhite</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">fluorescentWarmWhite</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">fluorescentWarmWhite</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC6manualACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/manual" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC6manualACvZ">manual</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">manual</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">manual</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC7manual2ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/manual2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC7manual2ACvZ">manual2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">manual2</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">manual2</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC7manual3ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/manual3" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC7manual3ACvZ">manual3</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">manual3</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">manual3</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC16colorTemperatureACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/colorTemperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC16colorTemperatureACvZ">colorTemperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">colorTemperature</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">colorTemperature</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC17colorTemperature2ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/colorTemperature2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC17colorTemperature2ACvZ">colorTemperature2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">colorTemperature2</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">colorTemperature2</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC17colorTemperature3ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/colorTemperature3" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC17colorTemperature3ACvZ">colorTemperature3</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">colorTemperature3</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">colorTemperature3</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC3CTEACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/CTE" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC3CTEACvZ">CTE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">CTE</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="kt">CTE</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC12incandescentACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/incandescent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC12incandescentACvZ">incandescent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">incandescent</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">incandescent</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC6customACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/custom" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC6customACvZ">custom</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">custom</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">custom</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC7outdoorACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/outdoor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC7outdoorACvZ">outdoor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">outdoor</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">outdoor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC5flashACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/flash" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC5flashACvZ">flash</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">flash</span> <span class="o">=</span> <span class="kt">WhiteBalance</span><span class="p">(</span><span class="o">.</span><span class="n">flash</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs an object not having a value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12WhiteBalanceC5ValueC"></a>
+                    <a name="//apple_ref/swift/Class/Value" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12WhiteBalanceC5ValueC">Value</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class for setting value of white balance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">Value</span><span class="p">:</span> <span class="kt"><a href="../Classes/CaptureSetting.html">CaptureSetting</a></span><span class="o">.</span><span class="kt">Value</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://api.ricoh/" target="_blank" rel="external">Ricoh Co., Ltd</a>. All rights reserved. (Last updated: 2018-05-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

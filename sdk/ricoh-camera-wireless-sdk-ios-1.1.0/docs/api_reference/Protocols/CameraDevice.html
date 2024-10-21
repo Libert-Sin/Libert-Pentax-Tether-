@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CameraDevice Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/CameraDevice" class="dashAnchor"></a>
+    <a title="CameraDevice Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">RICOHCameraWirelessSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">RICOHCameraWirelessSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CameraDevice Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Api.html">Api</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraDevice.html">CameraDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceDetector.html">CameraDeviceDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraEventListener.html">CameraEventListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraImage.html">CameraImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CameraSDKError.html">CameraSDKError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraStatus.html">CameraStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraStorage.html">CameraStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Capture.html">Capture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CaptureState.html">CaptureState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceInterface.html">DeviceInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageFormat.html">ImageFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageType.html">ImageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StorageListImagesState.html">StorageListImagesState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StoragePermission.html">StoragePermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StorageType.html">StorageType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Response.html">Api.Response</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Response.html">Response</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartCaptureResponse.html">StartCaptureResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Setting.Camera.html">Api.Setting.Camera</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceSetting.html">CameraDeviceSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceSetting/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraTime.html">CameraTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraTime/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html#/s:22RICOHCameraWirelessSDK7ChannelC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Api.Setting.Camera.html#/s:22RICOHCameraWirelessSDK22DeviceInterfaceSettingC">DeviceInterfaceSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DualCardSlotsMode.html">DualCardSlotsMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DualCardSlotsMode.html#/s:22RICOHCameraWirelessSDK17DualCardSlotsModeC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html">Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html#/s:22RICOHCameraWirelessSDK3KeyC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSID.html">SSID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSID.html#/s:22RICOHCameraWirelessSDK4SSIDC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Api.Setting.Camera.html#/s:22RICOHCameraWirelessSDK11WLANSettingC">WLANSetting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Setting.Capture.html">Api.Setting.Capture</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureMethod.html">CaptureMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureMethod.html#/s:22RICOHCameraWirelessSDK13CaptureMethodC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureSetting.html">CaptureSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureSetting/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomImage.html">CustomImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomImage.html#/s:22RICOHCameraWirelessSDK11CustomImageC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalFilter.html">DigitalFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalFilter.html#/s:22RICOHCameraWirelessSDK13DigitalFilterC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExposureCompensation.html">ExposureCompensation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExposureCompensation.html#/s:22RICOHCameraWirelessSDK20ExposureCompensationC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FNumber.html">FNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FNumber.html#/s:22RICOHCameraWirelessSDK7FNumberC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ISO.html">ISO</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ISO.html#/s:22RICOHCameraWirelessSDK3ISOC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieCaptureFormat.html">MovieCaptureFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieCaptureFormat.html#/s:22RICOHCameraWirelessSDK18MovieCaptureFormatC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShutterSpeed.html">ShutterSpeed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShutterSpeed.html#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageCaptureFormat.html">StillImageCaptureFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageCaptureFormat.html#/s:22RICOHCameraWirelessSDK23StillImageCaptureFormatC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageQuality.html">StillImageQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageQuality.html#/s:22RICOHCameraWirelessSDK17StillImageQualityC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteBalance.html">WhiteBalance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteBalance.html#/s:22RICOHCameraWirelessSDK12WhiteBalanceC5ValueC">– Value</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:22RICOHCameraWirelessSDK2eeoiSbAA12CameraDevice_p_AaC_ptF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CameraDevice</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">CameraDevice</span></code></pre>
+
+                </div>
+              </div>
+            <p>This protocol for information and operations on a camera device.</p>
+
+<p>While connecting, <em>Storages</em>, <em>Status</em>, <em>Images</em>, <em>CameraDeviceSettings</em> and <em>CaptureSettings</em> are cached and updated in the background.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    There are cases that <em>Images</em> is not updated (ex: when an image was deleted). In this case, <em>Images</em> can be updated by updateImages method.
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP12manufacturerSSv"></a>
+                    <a name="//apple_ref/swift/Property/manufacturer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP12manufacturerSSv">manufacturer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The manufacturer of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">manufacturer</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP5modelSSv"></a>
+                    <a name="//apple_ref/swift/Property/model" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP5modelSSv">model</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The model of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">model</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP15firmwareVersionSSv"></a>
+                    <a name="//apple_ref/swift/Property/firmwareVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP15firmwareVersionSSv">firmwareVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The firmware version of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">firmwareVersion</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP12serialNumberSSv"></a>
+                    <a name="//apple_ref/swift/Property/serialNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP12serialNumberSSv">serialNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The serial number of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">serialNumber</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP14eventListenersSayAA0D13EventListener_pGv"></a>
+                    <a name="//apple_ref/swift/Property/eventListeners" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP14eventListenersSayAA0D13EventListener_pGv">eventListeners</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The event listeners of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">eventListeners</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/CameraEventListener.html">CameraEventListener</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP16addEventListenerySo13DispatchQueueCSg5queue_AA0dgH0_p8listenertF"></a>
+                    <a name="//apple_ref/swift/Method/addEventListener(queue:listener:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP16addEventListenerySo13DispatchQueueCSg5queue_AA0dgH0_p8listenertF">addEventListener(queue:listener:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds the specified event listener to the camera device.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addEventListener</span><span class="p">(</span><span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?,</span> <span class="nv">listener</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CameraEventListener.html">CameraEventListener</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The queue to dispatch event (default: main)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>listener</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The event listener</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP19removeEventListeneryAA0dgH0_p8listener_tF"></a>
+                    <a name="//apple_ref/swift/Method/removeEventListener(listener:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP19removeEventListeneryAA0dgH0_p8listener_tF">removeEventListener(listener:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes the specified event listener from the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeEventListener</span><span class="p">(</span><span class="nv">listener</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CameraEventListener.html">CameraEventListener</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>listener</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The event listener</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP8storagesSayAA0D7Storage_pGv"></a>
+                    <a name="//apple_ref/swift/Property/storages" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP8storagesSayAA0D7Storage_pGv">storages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The storages of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">storages</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/CameraStorage.html">CameraStorage</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP6statusAA0D6Status_pv"></a>
+                    <a name="//apple_ref/swift/Property/status" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP6statusAA0D6Status_pv">status</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The status of the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">status</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CameraStatus.html">CameraStatus</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP6imagesSayAA0D5Image_pGv"></a>
+                    <a name="//apple_ref/swift/Property/images" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP6imagesSayAA0D5Image_pGv">images</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Latest cached image list retrieved from the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">images</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/CameraImage.html">CameraImage</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP12updateImagesAA8ResponseCyF"></a>
+                    <a name="//apple_ref/swift/Method/updateImages()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP12updateImagesAA8ResponseCyF">updateImages()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates a cache of image list with retrieving from the camera device.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateImages</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP7connectAA8ResponseCAA0E9InterfaceO06deviceH0_tF"></a>
+                    <a name="//apple_ref/swift/Method/connect(deviceInterface:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP7connectAA8ResponseCAA0E9InterfaceO06deviceH0_tF">connect(deviceInterface:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connects the camera device with a specified device interface.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">connect</span><span class="p">(</span><span class="nv">deviceInterface</span><span class="p">:</span> <span class="kt"><a href="../Enums/DeviceInterface.html">DeviceInterface</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceInterface</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The interface for connection</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP10disconnectAA8ResponseCAA0E9InterfaceO06deviceH0_tF"></a>
+                    <a name="//apple_ref/swift/Method/disconnect(deviceInterface:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP10disconnectAA8ResponseCAA0E9InterfaceO06deviceH0_tF">disconnect(deviceInterface:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Disconnects the camera device with a specified device interface.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">disconnect</span><span class="p">(</span><span class="nv">deviceInterface</span><span class="p">:</span> <span class="kt"><a href="../Enums/DeviceInterface.html">DeviceInterface</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceInterface</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The interface for connection</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP11isConnectedSbAA0E9InterfaceO06deviceH0_tF"></a>
+                    <a name="//apple_ref/swift/Method/isConnected(deviceInterface:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP11isConnectedSbAA0E9InterfaceO06deviceH0_tF">isConnected(deviceInterface:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns <code>true</code> if the camera device is connected by the interface.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isConnected</span><span class="p">(</span><span class="nv">deviceInterface</span><span class="p">:</span> <span class="kt"><a href="../Enums/DeviceInterface.html">DeviceInterface</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceInterface</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The interface for connection</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP13startLiveViewAA8ResponseCyF"></a>
+                    <a name="//apple_ref/swift/Method/startLiveView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP13startLiveViewAA8ResponseCyF">startLiveView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Starts liveview. LiveViewFrames are received by CameraEventListener class.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">startLiveView</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP12stopLiveViewAA8ResponseCyF"></a>
+                    <a name="//apple_ref/swift/Method/stopLiveView()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP12stopLiveViewAA8ResponseCyF">stopLiveView()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stops liveview.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stopLiveView</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP5focusAA8ResponseCyKF"></a>
+                    <a name="//apple_ref/swift/Method/focus()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP5focusAA8ResponseCyKF">focus()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Does auto-focus.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Enums/CameraSDKError.html#/s:22RICOHCameraWirelessSDK14CameraSDKErrorO20unsupportedOperationA2CmF">CameraSDKError.unsupportedOperation</a></code> If the camera device is not supported
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">focus</span><span class="p">()</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP12startCaptureAA05StartG8ResponseCSb9withFocus_tKF"></a>
+                    <a name="//apple_ref/swift/Method/startCapture(withFocus:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP12startCaptureAA05StartG8ResponseCSb9withFocus_tKF">startCapture(withFocus:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Starts a capture. This behavior is different depends on the <code><a href="../Classes/CaptureMethod.html">CaptureMethod</a></code>. If a capture has been started with <code><a href="../Classes/CaptureMethod.html#/s:22RICOHCameraWirelessSDK13CaptureMethodC5movieACvZ">CaptureMethod.movie</a></code>, the capture is stopped by <code>stopCapture</code> method.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Enums/CameraSDKError.html#/s:22RICOHCameraWirelessSDK14CameraSDKErrorO20unsupportedOperationA2CmF">CameraSDKError.unsupportedOperation</a></code> If the camera device is not supported
+
+</div>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">startCapture</span><span class="p">(</span><span class="nv">withFocus</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/StartCaptureResponse.html">StartCaptureResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withFocus</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>true</code> If capturing with doing auto-focus (Only valid for <code><a href="../Classes/CaptureMethod.html#/s:22RICOHCameraWirelessSDK13CaptureMethodC10stillImageACvZ">CaptureMethod.stillImage</a></code>)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response having the capture</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP11stopCaptureAA8ResponseCyKF"></a>
+                    <a name="//apple_ref/swift/Method/stopCapture()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP11stopCaptureAA8ResponseCyKF">stopCapture()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stops the capture. If a capture has been started with <code><a href="../Classes/CaptureMethod.html#/s:22RICOHCameraWirelessSDK13CaptureMethodC5movieACvZ">CaptureMethod.movie</a></code>, the capture is stopped by this method.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code><a href="../Enums/CameraSDKError.html#/s:22RICOHCameraWirelessSDK14CameraSDKErrorO20unsupportedOperationA2CmF">CameraSDKError.unsupportedOperation</a></code> If the camera device is not supported
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stopCapture</span><span class="p">()</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP18getCaptureSettingsAA8ResponseCSayAA0G7SettingCG8settings_tF"></a>
+                    <a name="//apple_ref/swift/Method/getCaptureSettings(settings:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP18getCaptureSettingsAA8ResponseCSayAA0G7SettingCG8settings_tF">getCaptureSettings(settings:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets settings for capture</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getCaptureSettings</span><span class="p">(</span><span class="nv">settings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CaptureSetting.html">CaptureSetting</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>settings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The settings</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP18setCaptureSettingsAA8ResponseCSayAA0G7SettingCG8settings_tF"></a>
+                    <a name="//apple_ref/swift/Method/setCaptureSettings(settings:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP18setCaptureSettingsAA8ResponseCSayAA0G7SettingCG8settings_tF">setCaptureSettings(settings:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets settings for capture</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setCaptureSettings</span><span class="p">(</span><span class="nv">settings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CaptureSetting.html">CaptureSetting</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>settings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The settings</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP03getdE8SettingsAA8ResponseCSayAA0dE7SettingCG8settings_tF"></a>
+                    <a name="//apple_ref/swift/Method/getCameraDeviceSettings(settings:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP03getdE8SettingsAA8ResponseCSayAA0dE7SettingCG8settings_tF">getCameraDeviceSettings(settings:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets settings for camera device</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getCameraDeviceSettings</span><span class="p">(</span><span class="nv">settings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CameraDeviceSetting.html">CameraDeviceSetting</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>settings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The settings</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12CameraDeviceP03setdE8SettingsAA8ResponseCSayAA0dE7SettingCG8settings_tF"></a>
+                    <a name="//apple_ref/swift/Method/setCameraDeviceSettings(settings:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12CameraDeviceP03setdE8SettingsAA8ResponseCSayAA0dE7SettingCG8settings_tF">setCameraDeviceSettings(settings:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets settings for camera device</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setCameraDeviceSettings</span><span class="p">(</span><span class="nv">settings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/CameraDeviceSetting.html">CameraDeviceSetting</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Response.html">Response</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>settings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The settings</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The operation response</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://api.ricoh/" target="_blank" rel="external">Ricoh Co., Ltd</a>. All rights reserved. (Last updated: 2018-05-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

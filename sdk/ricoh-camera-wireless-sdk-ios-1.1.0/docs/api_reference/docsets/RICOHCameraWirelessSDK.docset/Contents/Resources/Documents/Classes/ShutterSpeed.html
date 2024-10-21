@@ -1,0 +1,3556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ShutterSpeed Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ShutterSpeed" class="dashAnchor"></a>
+    <a title="ShutterSpeed Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">RICOHCameraWirelessSDK Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">RICOHCameraWirelessSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ShutterSpeed Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Api.html">Api</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraDevice.html">CameraDevice</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceDetector.html">CameraDeviceDetector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraEventListener.html">CameraEventListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraImage.html">CameraImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CameraSDKError.html">CameraSDKError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraStatus.html">CameraStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CameraStorage.html">CameraStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Capture.html">Capture</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CaptureState.html">CaptureState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceInterface.html">DeviceInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageFormat.html">ImageFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageType.html">ImageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StorageListImagesState.html">StorageListImagesState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StoragePermission.html">StoragePermission</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StorageType.html">StorageType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Response.html">Api.Response</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorCode.html">ErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Response.html">Response</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StartCaptureResponse.html">StartCaptureResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Setting.Camera.html">Api.Setting.Camera</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceSetting.html">CameraDeviceSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraDeviceSetting/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraTime.html">CameraTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CameraTime/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html">Channel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Channel.html#/s:22RICOHCameraWirelessSDK7ChannelC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Api.Setting.Camera.html#/s:22RICOHCameraWirelessSDK22DeviceInterfaceSettingC">DeviceInterfaceSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DualCardSlotsMode.html">DualCardSlotsMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DualCardSlotsMode.html#/s:22RICOHCameraWirelessSDK17DualCardSlotsModeC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html">Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Key.html#/s:22RICOHCameraWirelessSDK3KeyC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSID.html">SSID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SSID.html#/s:22RICOHCameraWirelessSDK4SSIDC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Api.Setting.Camera.html#/s:22RICOHCameraWirelessSDK11WLANSettingC">WLANSetting</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Api.Setting.Capture.html">Api.Setting.Capture</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureMethod.html">CaptureMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureMethod.html#/s:22RICOHCameraWirelessSDK13CaptureMethodC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureSetting.html">CaptureSetting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureSetting/Value.html">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomImage.html">CustomImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomImage.html#/s:22RICOHCameraWirelessSDK11CustomImageC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalFilter.html">DigitalFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DigitalFilter.html#/s:22RICOHCameraWirelessSDK13DigitalFilterC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExposureCompensation.html">ExposureCompensation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExposureCompensation.html#/s:22RICOHCameraWirelessSDK20ExposureCompensationC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FNumber.html">FNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FNumber.html#/s:22RICOHCameraWirelessSDK7FNumberC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ISO.html">ISO</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ISO.html#/s:22RICOHCameraWirelessSDK3ISOC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieCaptureFormat.html">MovieCaptureFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MovieCaptureFormat.html#/s:22RICOHCameraWirelessSDK18MovieCaptureFormatC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShutterSpeed.html">ShutterSpeed</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShutterSpeed.html#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageCaptureFormat.html">StillImageCaptureFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageCaptureFormat.html#/s:22RICOHCameraWirelessSDK23StillImageCaptureFormatC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageQuality.html">StillImageQuality</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StillImageQuality.html#/s:22RICOHCameraWirelessSDK17StillImageQualityC5ValueC">– Value</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteBalance.html">WhiteBalance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WhiteBalance.html#/s:22RICOHCameraWirelessSDK12WhiteBalanceC5ValueC">– Value</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other Functions.html#/s:22RICOHCameraWirelessSDK2eeoiSbAA12CameraDevice_p_AaC_ptF">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ShutterSpeed</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShutterSpeed</span><span class="p">:</span> <span class="kt"><a href="../Classes/CaptureSetting.html">CaptureSetting</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>This class for setting of shutter speed.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4bulbACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/bulb" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4bulbACvZ">bulb</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">bulb</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">bulb</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4timeACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/time" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4timeACvZ">time</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">time</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">time</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_24000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_24000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_24000ACvZ">ss1_24000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_24000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_24000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_16000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_16000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_16000ACvZ">ss1_16000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_16000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_16000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_12800ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_12800" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_12800ACvZ">ss1_12800</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_12800</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_12800</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_12000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_12000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_12000ACvZ">ss1_12000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_12000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_12000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_10000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_10000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC9ss1_10000ACvZ">ss1_10000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_10000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_10000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_8000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_8000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_8000ACvZ">ss1_8000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_8000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_8000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_6400ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_6400" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_6400ACvZ">ss1_6400</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_6400</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_6400</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_6000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_6000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_6000ACvZ">ss1_6000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_6000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_6000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_5000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_5000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_5000ACvZ">ss1_5000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_5000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_5000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_4000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_4000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_4000ACvZ">ss1_4000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_4000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_4000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_3200ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_3200" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_3200ACvZ">ss1_3200</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_3200</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_3200</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_3000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_3000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_3000ACvZ">ss1_3000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_3000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_3000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_2500ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_2500" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_2500ACvZ">ss1_2500</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_2500</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_2500</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_2000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_2000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_2000ACvZ">ss1_2000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_2000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_2000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1600ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_1600" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1600ACvZ">ss1_1600</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_1600</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_1600</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1500ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_1500" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1500ACvZ">ss1_1500</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_1500</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_1500</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1250ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_1250" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1250ACvZ">ss1_1250</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_1250</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_1250</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1000ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_1000" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC8ss1_1000ACvZ">ss1_1000</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_1000</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_1000</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_800ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_800" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_800ACvZ">ss1_800</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_800</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_800</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_750ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_750" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_750ACvZ">ss1_750</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_750</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_750</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_640ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_640" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_640ACvZ">ss1_640</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_640</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_640</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_500ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_500" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_500ACvZ">ss1_500</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_500</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_500</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_400ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_400" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_400ACvZ">ss1_400</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_400</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_400</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_350ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_350" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_350ACvZ">ss1_350</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_350</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_350</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_320ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_320" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_320ACvZ">ss1_320</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_320</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_320</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_250ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_250" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_250ACvZ">ss1_250</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_250</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_250</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_200ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_200" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_200ACvZ">ss1_200</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_200</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_200</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_180ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_180" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_180ACvZ">ss1_180</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_180</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_180</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_160ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_160" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_160ACvZ">ss1_160</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_160</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_160</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_125ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_125" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_125ACvZ">ss1_125</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_125</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_125</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_100ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_100" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss1_100ACvZ">ss1_100</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_100</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_100</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_90ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_90" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_90ACvZ">ss1_90</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_90</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_90</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_80ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_80" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_80ACvZ">ss1_80</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_80</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_80</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_60ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_60" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_60ACvZ">ss1_60</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_60</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_60</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_50ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_50" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_50ACvZ">ss1_50</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_50</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_50</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_45ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_45" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_45ACvZ">ss1_45</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_45</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_45</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_40ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_40" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_40ACvZ">ss1_40</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_40</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_40</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_30ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_30" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_30ACvZ">ss1_30</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_30</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_30</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_25ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_25" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_25ACvZ">ss1_25</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_25</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_25</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_20ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_20" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_20ACvZ">ss1_20</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_20</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_20</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_15ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_15" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_15ACvZ">ss1_15</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_15</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_15</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_13ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_13" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_13ACvZ">ss1_13</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_13</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_13</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1_10ACvZ">ss1_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_8ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_8" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_8ACvZ">ss1_8</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_8</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_8</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_6ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_6" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_6ACvZ">ss1_6</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_6</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_6</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_5ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_5" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_5ACvZ">ss1_5</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_5</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_5</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_4ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_4" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_4ACvZ">ss1_4</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_4</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_4</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss3_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss3_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss3_10ACvZ">ss3_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss3_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss3_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_3ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_3" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_3ACvZ">ss1_3</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_3</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_3</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss10_25ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss10_25" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss10_25ACvZ">ss10_25</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss10_25</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss10_25</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss4_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss4_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss4_10ACvZ">ss4_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss4_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss4_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_2ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1_2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss1_2ACvZ">ss1_2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1_2</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1_2</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss5_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss5_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss5_10ACvZ">ss5_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss5_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss5_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss6_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss6_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss6_10ACvZ">ss6_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss6_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss6_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss10_16ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss10_16" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss10_16ACvZ">ss10_16</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss10_16</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss10_16</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss7_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss7_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss7_10ACvZ">ss7_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss7_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss7_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss10_13ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss10_13" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss10_13ACvZ">ss10_13</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss10_13</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss10_13</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss8_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss8_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss8_10ACvZ">ss8_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss8_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss8_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss1ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss1ACvZ">ss1</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss13_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss13_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss13_10ACvZ">ss13_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss13_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss13_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss15_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss15_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss15_10ACvZ">ss15_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss15_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss15_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss16_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss16_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss16_10ACvZ">ss16_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss16_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss16_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss2ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss2ACvZ">ss2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss2</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss2</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss25_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss25_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss25_10ACvZ">ss25_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss25_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss25_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss3ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss3" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss3ACvZ">ss3</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss3</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss3</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss32_10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss32_10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC7ss32_10ACvZ">ss32_10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss32_10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss32_10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss4ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss4" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss4ACvZ">ss4</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss4</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss4</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss5ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss5" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss5ACvZ">ss5</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss5</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss5</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss6ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss6" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss6ACvZ">ss6</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss6</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss6</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss8ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss8" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC3ss8ACvZ">ss8</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss8</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss8</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss10ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss10" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss10ACvZ">ss10</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss10</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss10</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss13ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss13" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss13ACvZ">ss13</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss13</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss13</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss15ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss15" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss15ACvZ">ss15</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss15</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss15</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss20ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss20" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss20ACvZ">ss20</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss20</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss20</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss25ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss25" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss25ACvZ">ss25</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss25</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss25</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss30ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss30" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss30ACvZ">ss30</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss30</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss30</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss40ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss40" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss40ACvZ">ss40</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss40</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss40</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss50ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss50" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss50ACvZ">ss50</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss50</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss50</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss60ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss60" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss60ACvZ">ss60</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss60</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss60</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss70ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss70" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss70ACvZ">ss70</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss70</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss70</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss80ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss80" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss80ACvZ">ss80</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss80</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss80</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss90ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss90" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC4ss90ACvZ">ss90</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss90</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss90</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss100ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss100" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss100ACvZ">ss100</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss100</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss100</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss110ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss110" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss110ACvZ">ss110</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss110</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss110</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss120ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss120" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss120ACvZ">ss120</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss120</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss120</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss130ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss130" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss130ACvZ">ss130</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss130</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss130</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss140ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss140" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss140ACvZ">ss140</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss140</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss140</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss150ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss150" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss150ACvZ">ss150</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss150</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss150</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss160ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss160" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss160ACvZ">ss160</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss160</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n"><a href="../Classes/ShutterSpeed.html#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss150ACvZ">ss150</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss170ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss170" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss170ACvZ">ss170</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss170</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss170</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss180ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss180" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss180ACvZ">ss180</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss180</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss180</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss190ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss190" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss190ACvZ">ss190</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss190</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss190</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss200ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss200" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss200ACvZ">ss200</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss200</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss200</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss210ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss210" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss210ACvZ">ss210</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss210</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss210</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss220ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss220" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss220ACvZ">ss220</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss220</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss220</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss230ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss230" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss230ACvZ">ss230</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss230</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss230</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss240ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss240" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss240ACvZ">ss240</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss240</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss240</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss250ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss250" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss250ACvZ">ss250</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss250</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss250</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss260ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss260" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss260ACvZ">ss260</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss260</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss260</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss270ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss270" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss270ACvZ">ss270</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss270</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss270</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss280ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss280" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss280ACvZ">ss280</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss280</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss280</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss290ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss290" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss290ACvZ">ss290</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss290</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss290</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss300ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss300" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss300ACvZ">ss300</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss300</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss300</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss360ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss360" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss360ACvZ">ss360</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss360</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss360</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss420ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss420" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss420ACvZ">ss420</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss420</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss420</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss480ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss480" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss480ACvZ">ss480</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss480</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss480</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss540ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss540" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss540ACvZ">ss540</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss540</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss540</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss600ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss600" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss600ACvZ">ss600</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss600</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss600</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss660ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss660" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss660ACvZ">ss660</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss660</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss660</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss720ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss720" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss720ACvZ">ss720</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss720</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss720</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss780ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss780" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss780ACvZ">ss780</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss780</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss780</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss840ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss840" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss840ACvZ">ss840</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss840</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss840</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss900ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss900" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss900ACvZ">ss900</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss900</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss900</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss960ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss960" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ss960ACvZ">ss960</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss960</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss960</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1020ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1020" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1020ACvZ">ss1020</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1020</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1020</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1080ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1080" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1080ACvZ">ss1080</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1080</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1080</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1140ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1140" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1140ACvZ">ss1140</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1140</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1140</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1200ACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/ss1200" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC6ss1200ACvZ">ss1200</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">ss1200</span> <span class="o">=</span> <span class="kt">ShutterSpeed</span><span class="p">(</span><span class="o">.</span><span class="n">ss1200</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructs an object not having a value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ValueC"></a>
+                    <a name="//apple_ref/swift/Class/Value" class="dashAnchor"></a>
+                    <a class="token" href="#/s:22RICOHCameraWirelessSDK12ShutterSpeedC5ValueC">Value</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This class for setting value of shutter speed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">Value</span><span class="p">:</span> <span class="kt"><a href="../Classes/CaptureSetting.html">CaptureSetting</a></span><span class="o">.</span><span class="kt">Value</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://api.ricoh/" target="_blank" rel="external">Ricoh Co., Ltd</a>. All rights reserved. (Last updated: 2018-05-08)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

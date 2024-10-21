@@ -1,0 +1,11 @@
+framework module RICOHCameraWirelessSDK {
+  umbrella header "RICOHCameraWirelessSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module RICOHCameraWirelessSDK.Swift {
+    header "RICOHCameraWirelessSDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F704FD01F540581007C4F28 /* libcamera-usb-sdk-cpp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F704FCF1F540581007C4F28 /* libcamera-usb-sdk-cpp.dylib */; };
+		7F704FD21F540C0B007C4F28 /* libwx_osx_cocoau-3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F704FD11F540C0B007C4F28 /* libwx_osx_cocoau-3.0.dylib */; };
+		7FA9914B1F3AF072005A1D8C /* liveview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA9914A1F3AF072005A1D8C /* liveview.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F704FCF1F540581007C4F28 /* libcamera-usb-sdk-cpp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libcamera-usb-sdk-cpp.dylib"; path = "../lib/libcamera-usb-sdk-cpp.dylib"; sourceTree = "<group>"; };
+		7F704FD11F540C0B007C4F28 /* libwx_osx_cocoau-3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libwx_osx_cocoau-3.0.dylib"; path = "lib/libwx_osx_cocoau-3.0.dylib"; sourceTree = "<group>"; };
+		7FA991331F3AE11B005A1D8C /* liveview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liveview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA991441F3AE11B005A1D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = liveview/Info.plist; sourceTree = "<group>"; };
+		7FA9914A1F3AF072005A1D8C /* liveview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = liveview.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA991301F3AE11B005A1D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F704FD21F540C0B007C4F28 /* libwx_osx_cocoau-3.0.dylib in Frameworks */,
+				7F704FD01F540581007C4F28 /* libcamera-usb-sdk-cpp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA9912A1F3AE11B005A1D8C = {
+			isa = PBXGroup;
+			children = (
+				7FA991441F3AE11B005A1D8C /* Info.plist */,
+				7FA9914A1F3AF072005A1D8C /* liveview.cpp */,
+				7FA991341F3AE11B005A1D8C /* Products */,
+				7FA9914C1F3AF25F005A1D8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA991341F3AE11B005A1D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA991331F3AE11B005A1D8C /* liveview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA9914C1F3AF25F005A1D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F704FCF1F540581007C4F28 /* libcamera-usb-sdk-cpp.dylib */,
+				7F704FD11F540C0B007C4F28 /* libwx_osx_cocoau-3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FA991321F3AE11B005A1D8C /* liveview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA991471F3AE11B005A1D8C /* Build configuration list for PBXNativeTarget "liveview" */;
+			buildPhases = (
+				7FA9912F1F3AE11B005A1D8C /* Sources */,
+				7FA991301F3AE11B005A1D8C /* Frameworks */,
+				7FA991311F3AE11B005A1D8C /* Resources */,
+				7FA991521F3B0B82005A1D8C /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liveview;
+			productName = "liveview-osx";
+			productReference = 7FA991331F3AE11B005A1D8C /* liveview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA9912B1F3AE11B005A1D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "RICOH Co.,Ltd.";
+				TargetAttributes = {
+					7FA991321F3AE11B005A1D8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7FA9912E1F3AE11B005A1D8C /* Build configuration list for PBXProject "liveview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FA9912A1F3AE11B005A1D8C;
+			productRefGroup = 7FA991341F3AE11B005A1D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA991321F3AE11B005A1D8C /* liveview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FA991311F3AE11B005A1D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FA991521F3B0B82005A1D8C /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_INSTALL_DIR=$BUILT_PRODUCTS_DIR\nFRAMEWORK_DIR=$APP_INSTALL_DIR/$FULL_PRODUCT_NAME/Contents/Frameworks\nWXLIB_DIR=$WXROOT/lib\nSDKLIB_DIR=$SRCROOT/../../lib\n\n# Copy shared libraries into application package\nmkdir -p $FRAMEWORK_DIR\ncp -R $WXLIB_DIR/libwx_*.dylib $FRAMEWORK_DIR/\ncp -R $SDKLIB_DIR/libcamera-*.dylib $FRAMEWORK_DIR/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA9912F1F3AE11B005A1D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA9914B1F3AF072005A1D8C /* liveview.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FA991451F3AE11B005A1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FA991461F3AE11B005A1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FA991481F3AE11B005A1D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = Application;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/build/Debug";
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/build/liveview.build";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../include\"",
+					"\"$(WXROOT)/lib/wx/include/osx_cocoa-unicode-3.0\"",
+					"\"$(WXROOT)/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/liveview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @executable_path $(BUILT_PRODUCTS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(WXROOT)/lib\"",
+					"\"$(SRCROOT)/../../lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-g",
+					"-fsanitize=address",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricoh.camera-usb-sdk.liveview";
+				PRODUCT_NAME = liveview;
+				WARNING_CFLAGS = "-Wall";
+				WXROOT = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		7FA991491F3AE11B005A1D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = Application;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/build/Release";
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/build/liveview.build";
+				GCC_OPTIMIZATION_LEVEL = 2;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../include\"",
+					"\"$(WXROOT)/lib/wx/include/osx_cocoa-unicode-3.0\"",
+					"\"$(WXROOT)/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/liveview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @executable_path $(BUILT_PRODUCTS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(WXROOT)/lib\"",
+					"\"$(SRCROOT)/../../lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricoh.camera-usb-sdk.liveview";
+				PRODUCT_NAME = liveview;
+				WARNING_CFLAGS = "-Wall";
+				WXROOT = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA9912E1F3AE11B005A1D8C /* Build configuration list for PBXProject "liveview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA991451F3AE11B005A1D8C /* Debug */,
+				7FA991461F3AE11B005A1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA991471F3AE11B005A1D8C /* Build configuration list for PBXNativeTarget "liveview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA991481F3AE11B005A1D8C /* Debug */,
+				7FA991491F3AE11B005A1D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FA9912B1F3AE11B005A1D8C /* Project object */;
+}

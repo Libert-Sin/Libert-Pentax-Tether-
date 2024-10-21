@@ -1,0 +1,3057 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/CameraDevice.swift",
+      "line": 156,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/CameraSDKError.swift",
+      "line": 7,
+      "symbol": "CameraSDKError.unsupportedOperation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/CaptureState.swift",
+      "line": 9,
+      "symbol": "CaptureState.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/CaptureState.swift",
+      "line": 10,
+      "symbol": "CaptureState.executing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/CaptureState.swift",
+      "line": 11,
+      "symbol": "CaptureState.complete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/DeviceInterface.swift",
+      "line": 7,
+      "symbol": "DeviceInterface.wlan",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 15,
+      "symbol": "ImageFormat.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 16,
+      "symbol": "ImageFormat.jpeg",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 17,
+      "symbol": "ImageFormat.tiff",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 18,
+      "symbol": "ImageFormat.dpof",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 19,
+      "symbol": "ImageFormat.pef",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 20,
+      "symbol": "ImageFormat.dng",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 21,
+      "symbol": "ImageFormat.mp4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 22,
+      "symbol": "ImageFormat.mov",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageFormat.swift",
+      "line": 23,
+      "symbol": "ImageFormat.avi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageType.swift",
+      "line": 9,
+      "symbol": "ImageType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageType.swift",
+      "line": 10,
+      "symbol": "ImageType.stillImage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/ImageType.swift",
+      "line": 11,
+      "symbol": "ImageType.movie",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 14,
+      "symbol": "ErrorCode.networkError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 15,
+      "symbol": "ErrorCode.deviceNotFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 16,
+      "symbol": "ErrorCode.imageNotFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 17,
+      "symbol": "ErrorCode.invalidSetting",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 18,
+      "symbol": "ErrorCode.invalidArgument",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 19,
+      "symbol": "ErrorCode.noSpace",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 20,
+      "symbol": "ErrorCode.forbidden",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/ErrorCode.swift",
+      "line": 21,
+      "symbol": "ErrorCode.unknownValue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/Result.swift",
+      "line": 8,
+      "symbol": "Result.ok",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Response/Result.swift",
+      "line": 9,
+      "symbol": "Result.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/CameraDeviceSetting.swift",
+      "line": 60,
+      "symbol": "CameraDeviceSetting.Value.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/CameraTime.swift",
+      "line": 25,
+      "symbol": "CameraTime.Value.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 55,
+      "symbol": "Channel.n0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 56,
+      "symbol": "Channel.n1",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 57,
+      "symbol": "Channel.n2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 58,
+      "symbol": "Channel.n3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 59,
+      "symbol": "Channel.n4",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 60,
+      "symbol": "Channel.n5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 61,
+      "symbol": "Channel.n6",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 62,
+      "symbol": "Channel.n7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 63,
+      "symbol": "Channel.n8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 64,
+      "symbol": "Channel.n9",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 65,
+      "symbol": "Channel.n10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/Channel.swift",
+      "line": 66,
+      "symbol": "Channel.n11",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/DualCardSlotsMode.swift",
+      "line": 28,
+      "symbol": "DualCardSlotsMode.sequentialUse",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/DualCardSlotsMode.swift",
+      "line": 29,
+      "symbol": "DualCardSlotsMode.saveToBoth",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Camera/DualCardSlotsMode.swift",
+      "line": 30,
+      "symbol": "DualCardSlotsMode.separateRawJpeg",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CaptureMethod.swift",
+      "line": 184,
+      "symbol": "CaptureMethod.stillImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CaptureMethod.swift",
+      "line": 185,
+      "symbol": "CaptureMethod.movie",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CaptureSetting.swift",
+      "line": 60,
+      "symbol": "CaptureSetting.Value.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 106,
+      "symbol": "CustomImage.off",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 107,
+      "symbol": "CustomImage.vivid",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 108,
+      "symbol": "CustomImage.bright",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 109,
+      "symbol": "CustomImage.setting",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 110,
+      "symbol": "CustomImage.setting2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 111,
+      "symbol": "CustomImage.blackAndWhite",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 112,
+      "symbol": "CustomImage.blackAndWhiteTE",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 113,
+      "symbol": "CustomImage.blackAndWhiteHiContrast",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 114,
+      "symbol": "CustomImage.crossProcess",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 115,
+      "symbol": "CustomImage.positiveFilm",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 116,
+      "symbol": "CustomImage.bleachBypass",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 117,
+      "symbol": "CustomImage.retro",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 118,
+      "symbol": "CustomImage.miniaturize",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 119,
+      "symbol": "CustomImage.highKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 120,
+      "symbol": "CustomImage.slight",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 121,
+      "symbol": "CustomImage.shiftCrop",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 122,
+      "symbol": "CustomImage.clarity",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 123,
+      "symbol": "CustomImage.brilliance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 124,
+      "symbol": "CustomImage.vibrant",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 125,
+      "symbol": "CustomImage.HDRTone",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 126,
+      "symbol": "CustomImage.portrait",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 127,
+      "symbol": "CustomImage.natural",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 128,
+      "symbol": "CustomImage.landscape",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 129,
+      "symbol": "CustomImage.radiant",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 130,
+      "symbol": "CustomImage.muted",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 131,
+      "symbol": "CustomImage.reversalFilm",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 132,
+      "symbol": "CustomImage.monochrome",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 133,
+      "symbol": "CustomImage.auto",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/CustomImage.swift",
+      "line": 134,
+      "symbol": "CustomImage.flat",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 64,
+      "symbol": "DigitalFilter.off",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 65,
+      "symbol": "DigitalFilter.extractColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 66,
+      "symbol": "DigitalFilter.replaceColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 67,
+      "symbol": "DigitalFilter.toyCamera",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 68,
+      "symbol": "DigitalFilter.retro",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 69,
+      "symbol": "DigitalFilter.highContrast",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 70,
+      "symbol": "DigitalFilter.shading",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 71,
+      "symbol": "DigitalFilter.invertColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 72,
+      "symbol": "DigitalFilter.unicolorBold",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 73,
+      "symbol": "DigitalFilter.boldMonochrome",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 74,
+      "symbol": "DigitalFilter.HDRAuto",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 75,
+      "symbol": "DigitalFilter.HDRType",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 76,
+      "symbol": "DigitalFilter.HDRType2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 77,
+      "symbol": "DigitalFilter.HDRType3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/DigitalFilter.swift",
+      "line": 78,
+      "symbol": "DigitalFilter.advancedHDR",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 142,
+      "symbol": "ExposureCompensation.ecNegative5_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 143,
+      "symbol": "ExposureCompensation.ecNegative4_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 144,
+      "symbol": "ExposureCompensation.ecNegative4_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 145,
+      "symbol": "ExposureCompensation.ecNegative4_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 146,
+      "symbol": "ExposureCompensation.ecNegative4_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 147,
+      "symbol": "ExposureCompensation.ecNegative3_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 148,
+      "symbol": "ExposureCompensation.ecNegative3_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 149,
+      "symbol": "ExposureCompensation.ecNegative3_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 150,
+      "symbol": "ExposureCompensation.ecNegative3_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 151,
+      "symbol": "ExposureCompensation.ecNegative2_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 152,
+      "symbol": "ExposureCompensation.ecNegative2_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 153,
+      "symbol": "ExposureCompensation.ecNegative2_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 154,
+      "symbol": "ExposureCompensation.ecNegative2_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 155,
+      "symbol": "ExposureCompensation.ecNegative1_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 156,
+      "symbol": "ExposureCompensation.ecNegative1_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 157,
+      "symbol": "ExposureCompensation.ecNegative1_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 158,
+      "symbol": "ExposureCompensation.ecNegative1_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 159,
+      "symbol": "ExposureCompensation.ecNegative0_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 160,
+      "symbol": "ExposureCompensation.ecNegative0_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 161,
+      "symbol": "ExposureCompensation.ecNegative0_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 162,
+      "symbol": "ExposureCompensation.ec0_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 163,
+      "symbol": "ExposureCompensation.ec0_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 164,
+      "symbol": "ExposureCompensation.ec0_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 165,
+      "symbol": "ExposureCompensation.ec0_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 166,
+      "symbol": "ExposureCompensation.ec1_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 167,
+      "symbol": "ExposureCompensation.ec1_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 168,
+      "symbol": "ExposureCompensation.ec1_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 169,
+      "symbol": "ExposureCompensation.ec1_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 170,
+      "symbol": "ExposureCompensation.ec2_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 171,
+      "symbol": "ExposureCompensation.ec2_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 172,
+      "symbol": "ExposureCompensation.ec2_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 173,
+      "symbol": "ExposureCompensation.ec2_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 174,
+      "symbol": "ExposureCompensation.ec3_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 175,
+      "symbol": "ExposureCompensation.ec3_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 176,
+      "symbol": "ExposureCompensation.ec3_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 177,
+      "symbol": "ExposureCompensation.ec3_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 178,
+      "symbol": "ExposureCompensation.ec4_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 179,
+      "symbol": "ExposureCompensation.ec4_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 180,
+      "symbol": "ExposureCompensation.ec4_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 181,
+      "symbol": "ExposureCompensation.ec4_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ExposureCompensation.swift",
+      "line": 182,
+      "symbol": "ExposureCompensation.ec5_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 208,
+      "symbol": "FNumber.null",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 209,
+      "symbol": "FNumber.f0_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 210,
+      "symbol": "FNumber.f0_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 211,
+      "symbol": "FNumber.f0_8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 212,
+      "symbol": "FNumber.f0_9",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 213,
+      "symbol": "FNumber.f1_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 214,
+      "symbol": "FNumber.f1_1",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 215,
+      "symbol": "FNumber.f1_2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 216,
+      "symbol": "FNumber.f1_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 217,
+      "symbol": "FNumber.f1_4",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 218,
+      "symbol": "FNumber.f1_6",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 219,
+      "symbol": "FNumber.f1_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 220,
+      "symbol": "FNumber.f1_8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 221,
+      "symbol": "FNumber.f1_9",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 222,
+      "symbol": "FNumber.f2_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 223,
+      "symbol": "FNumber.f2_2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 224,
+      "symbol": "FNumber.f2_4",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 225,
+      "symbol": "FNumber.f2_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 226,
+      "symbol": "FNumber.f2_8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 227,
+      "symbol": "FNumber.f3_2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 228,
+      "symbol": "FNumber.f3_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 229,
+      "symbol": "FNumber.f3_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 230,
+      "symbol": "FNumber.f4_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 231,
+      "symbol": "FNumber.f4_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 232,
+      "symbol": "FNumber.f4_8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 233,
+      "symbol": "FNumber.f5_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 234,
+      "symbol": "FNumber.f5_6",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 235,
+      "symbol": "FNumber.f6_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 236,
+      "symbol": "FNumber.f6_7",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 237,
+      "symbol": "FNumber.f7_1",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 238,
+      "symbol": "FNumber.f8_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 239,
+      "symbol": "FNumber.f9_0",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 240,
+      "symbol": "FNumber.f9_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 241,
+      "symbol": "FNumber.f10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 242,
+      "symbol": "FNumber.f11",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 243,
+      "symbol": "FNumber.f13",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 244,
+      "symbol": "FNumber.f14",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 245,
+      "symbol": "FNumber.f16",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 246,
+      "symbol": "FNumber.f18",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 247,
+      "symbol": "FNumber.f19",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 248,
+      "symbol": "FNumber.f20",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 249,
+      "symbol": "FNumber.f22",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 250,
+      "symbol": "FNumber.f25",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 251,
+      "symbol": "FNumber.f27",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 252,
+      "symbol": "FNumber.f29",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 253,
+      "symbol": "FNumber.f32",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 254,
+      "symbol": "FNumber.f36",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 255,
+      "symbol": "FNumber.f38",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 256,
+      "symbol": "FNumber.f40",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 257,
+      "symbol": "FNumber.f45",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 258,
+      "symbol": "FNumber.f51",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 259,
+      "symbol": "FNumber.f54",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 260,
+      "symbol": "FNumber.f57",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 261,
+      "symbol": "FNumber.f64",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 262,
+      "symbol": "FNumber.f72",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 263,
+      "symbol": "FNumber.f76",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 264,
+      "symbol": "FNumber.f80",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 265,
+      "symbol": "FNumber.f81",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 266,
+      "symbol": "FNumber.f90",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 267,
+      "symbol": "FNumber.f107",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 268,
+      "symbol": "FNumber.f128",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 269,
+      "symbol": "FNumber.f180",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/FNumber.swift",
+      "line": 270,
+      "symbol": "FNumber.f256",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 187,
+      "symbol": "ISO.auto",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 188,
+      "symbol": "ISO.autoHi",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 189,
+      "symbol": "ISO.ISO100",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 190,
+      "symbol": "ISO.ISO125",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 191,
+      "symbol": "ISO.ISO140",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 192,
+      "symbol": "ISO.ISO160",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 193,
+      "symbol": "ISO.ISO200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 194,
+      "symbol": "ISO.ISO250",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 195,
+      "symbol": "ISO.ISO280",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 196,
+      "symbol": "ISO.ISO320",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 197,
+      "symbol": "ISO.ISO400",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 198,
+      "symbol": "ISO.ISO500",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 199,
+      "symbol": "ISO.ISO560",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 200,
+      "symbol": "ISO.ISO640",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 201,
+      "symbol": "ISO.ISO800",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 202,
+      "symbol": "ISO.ISO1000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 203,
+      "symbol": "ISO.ISO1100",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 204,
+      "symbol": "ISO.ISO1250",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 205,
+      "symbol": "ISO.ISO1600",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 206,
+      "symbol": "ISO.ISO2000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 207,
+      "symbol": "ISO.ISO2200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 208,
+      "symbol": "ISO.ISO2500",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 209,
+      "symbol": "ISO.ISO3200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 210,
+      "symbol": "ISO.ISO4000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 211,
+      "symbol": "ISO.ISO4500",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 212,
+      "symbol": "ISO.ISO5000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 213,
+      "symbol": "ISO.ISO6400",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 214,
+      "symbol": "ISO.ISO8000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 215,
+      "symbol": "ISO.ISO9000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 216,
+      "symbol": "ISO.ISO10000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 217,
+      "symbol": "ISO.ISO12800",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 218,
+      "symbol": "ISO.ISO16000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 219,
+      "symbol": "ISO.ISO18000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 220,
+      "symbol": "ISO.ISO20000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 221,
+      "symbol": "ISO.ISO25600",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 222,
+      "symbol": "ISO.ISO32000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 223,
+      "symbol": "ISO.ISO36000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 224,
+      "symbol": "ISO.ISO40000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 225,
+      "symbol": "ISO.ISO51200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 226,
+      "symbol": "ISO.ISO64000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 227,
+      "symbol": "ISO.ISO72000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 228,
+      "symbol": "ISO.ISO80000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 229,
+      "symbol": "ISO.ISO102400",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 230,
+      "symbol": "ISO.ISO128000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 231,
+      "symbol": "ISO.ISO144000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 232,
+      "symbol": "ISO.ISO160000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 233,
+      "symbol": "ISO.ISO204800",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 234,
+      "symbol": "ISO.ISO256000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 235,
+      "symbol": "ISO.ISO288000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 236,
+      "symbol": "ISO.ISO320000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 237,
+      "symbol": "ISO.ISO409600",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 238,
+      "symbol": "ISO.ISO512000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 239,
+      "symbol": "ISO.ISO576000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 240,
+      "symbol": "ISO.ISO640000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ISO.swift",
+      "line": 241,
+      "symbol": "ISO.ISO819200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 67,
+      "symbol": "MovieCaptureFormat.mcf4K30P",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 68,
+      "symbol": "MovieCaptureFormat.fullHD24p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 69,
+      "symbol": "MovieCaptureFormat.fullHD25p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 70,
+      "symbol": "MovieCaptureFormat.fullHD30p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 71,
+      "symbol": "MovieCaptureFormat.fullHD50i",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 72,
+      "symbol": "MovieCaptureFormat.fullHD60i",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 73,
+      "symbol": "MovieCaptureFormat.fullHD60p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 74,
+      "symbol": "MovieCaptureFormat.HD120p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 75,
+      "symbol": "MovieCaptureFormat.HD24p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 76,
+      "symbol": "MovieCaptureFormat.HD25p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 77,
+      "symbol": "MovieCaptureFormat.HD30p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 78,
+      "symbol": "MovieCaptureFormat.HD50p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 79,
+      "symbol": "MovieCaptureFormat.HD60p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 80,
+      "symbol": "MovieCaptureFormat.VGA24p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 81,
+      "symbol": "MovieCaptureFormat.VGA25p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/MovieCaptureFormat.swift",
+      "line": 82,
+      "symbol": "MovieCaptureFormat.VGA30p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 382,
+      "symbol": "ShutterSpeed.bulb",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 383,
+      "symbol": "ShutterSpeed.time",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 384,
+      "symbol": "ShutterSpeed.ss1_24000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 385,
+      "symbol": "ShutterSpeed.ss1_16000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 386,
+      "symbol": "ShutterSpeed.ss1_12800",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 387,
+      "symbol": "ShutterSpeed.ss1_12000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 388,
+      "symbol": "ShutterSpeed.ss1_10000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 389,
+      "symbol": "ShutterSpeed.ss1_8000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 390,
+      "symbol": "ShutterSpeed.ss1_6400",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 391,
+      "symbol": "ShutterSpeed.ss1_6000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 392,
+      "symbol": "ShutterSpeed.ss1_5000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 393,
+      "symbol": "ShutterSpeed.ss1_4000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 394,
+      "symbol": "ShutterSpeed.ss1_3200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 395,
+      "symbol": "ShutterSpeed.ss1_3000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 396,
+      "symbol": "ShutterSpeed.ss1_2500",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 397,
+      "symbol": "ShutterSpeed.ss1_2000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 398,
+      "symbol": "ShutterSpeed.ss1_1600",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 399,
+      "symbol": "ShutterSpeed.ss1_1500",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 400,
+      "symbol": "ShutterSpeed.ss1_1250",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 401,
+      "symbol": "ShutterSpeed.ss1_1000",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 402,
+      "symbol": "ShutterSpeed.ss1_800",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 403,
+      "symbol": "ShutterSpeed.ss1_750",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 404,
+      "symbol": "ShutterSpeed.ss1_640",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 405,
+      "symbol": "ShutterSpeed.ss1_500",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 406,
+      "symbol": "ShutterSpeed.ss1_400",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 407,
+      "symbol": "ShutterSpeed.ss1_350",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 408,
+      "symbol": "ShutterSpeed.ss1_320",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 409,
+      "symbol": "ShutterSpeed.ss1_250",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 410,
+      "symbol": "ShutterSpeed.ss1_200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 411,
+      "symbol": "ShutterSpeed.ss1_180",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 412,
+      "symbol": "ShutterSpeed.ss1_160",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 413,
+      "symbol": "ShutterSpeed.ss1_125",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 414,
+      "symbol": "ShutterSpeed.ss1_100",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 415,
+      "symbol": "ShutterSpeed.ss1_90",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 416,
+      "symbol": "ShutterSpeed.ss1_80",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 417,
+      "symbol": "ShutterSpeed.ss1_60",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 418,
+      "symbol": "ShutterSpeed.ss1_50",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 419,
+      "symbol": "ShutterSpeed.ss1_45",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 420,
+      "symbol": "ShutterSpeed.ss1_40",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 421,
+      "symbol": "ShutterSpeed.ss1_30",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 422,
+      "symbol": "ShutterSpeed.ss1_25",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 423,
+      "symbol": "ShutterSpeed.ss1_20",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 424,
+      "symbol": "ShutterSpeed.ss1_15",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 425,
+      "symbol": "ShutterSpeed.ss1_13",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 426,
+      "symbol": "ShutterSpeed.ss1_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 427,
+      "symbol": "ShutterSpeed.ss1_8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 428,
+      "symbol": "ShutterSpeed.ss1_6",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 429,
+      "symbol": "ShutterSpeed.ss1_5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 430,
+      "symbol": "ShutterSpeed.ss1_4",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 431,
+      "symbol": "ShutterSpeed.ss3_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 432,
+      "symbol": "ShutterSpeed.ss1_3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 433,
+      "symbol": "ShutterSpeed.ss10_25",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 434,
+      "symbol": "ShutterSpeed.ss4_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 435,
+      "symbol": "ShutterSpeed.ss1_2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 436,
+      "symbol": "ShutterSpeed.ss5_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 437,
+      "symbol": "ShutterSpeed.ss6_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 438,
+      "symbol": "ShutterSpeed.ss10_16",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 439,
+      "symbol": "ShutterSpeed.ss7_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 440,
+      "symbol": "ShutterSpeed.ss10_13",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 441,
+      "symbol": "ShutterSpeed.ss8_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 442,
+      "symbol": "ShutterSpeed.ss1",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 443,
+      "symbol": "ShutterSpeed.ss13_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 444,
+      "symbol": "ShutterSpeed.ss15_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 445,
+      "symbol": "ShutterSpeed.ss16_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 446,
+      "symbol": "ShutterSpeed.ss2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 447,
+      "symbol": "ShutterSpeed.ss25_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 448,
+      "symbol": "ShutterSpeed.ss3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 449,
+      "symbol": "ShutterSpeed.ss32_10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 450,
+      "symbol": "ShutterSpeed.ss4",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 451,
+      "symbol": "ShutterSpeed.ss5",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 452,
+      "symbol": "ShutterSpeed.ss6",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 453,
+      "symbol": "ShutterSpeed.ss8",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 454,
+      "symbol": "ShutterSpeed.ss10",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 455,
+      "symbol": "ShutterSpeed.ss13",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 456,
+      "symbol": "ShutterSpeed.ss15",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 457,
+      "symbol": "ShutterSpeed.ss20",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 458,
+      "symbol": "ShutterSpeed.ss25",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 459,
+      "symbol": "ShutterSpeed.ss30",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 460,
+      "symbol": "ShutterSpeed.ss40",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 461,
+      "symbol": "ShutterSpeed.ss50",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 462,
+      "symbol": "ShutterSpeed.ss60",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 463,
+      "symbol": "ShutterSpeed.ss70",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 464,
+      "symbol": "ShutterSpeed.ss80",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 465,
+      "symbol": "ShutterSpeed.ss90",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 466,
+      "symbol": "ShutterSpeed.ss100",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 467,
+      "symbol": "ShutterSpeed.ss110",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 468,
+      "symbol": "ShutterSpeed.ss120",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 469,
+      "symbol": "ShutterSpeed.ss130",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 470,
+      "symbol": "ShutterSpeed.ss140",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 471,
+      "symbol": "ShutterSpeed.ss150",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 472,
+      "symbol": "ShutterSpeed.ss160",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 473,
+      "symbol": "ShutterSpeed.ss170",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 474,
+      "symbol": "ShutterSpeed.ss180",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 475,
+      "symbol": "ShutterSpeed.ss190",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 476,
+      "symbol": "ShutterSpeed.ss200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 477,
+      "symbol": "ShutterSpeed.ss210",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 478,
+      "symbol": "ShutterSpeed.ss220",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 479,
+      "symbol": "ShutterSpeed.ss230",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 480,
+      "symbol": "ShutterSpeed.ss240",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 481,
+      "symbol": "ShutterSpeed.ss250",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 482,
+      "symbol": "ShutterSpeed.ss260",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 483,
+      "symbol": "ShutterSpeed.ss270",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 484,
+      "symbol": "ShutterSpeed.ss280",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 485,
+      "symbol": "ShutterSpeed.ss290",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 486,
+      "symbol": "ShutterSpeed.ss300",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 487,
+      "symbol": "ShutterSpeed.ss360",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 488,
+      "symbol": "ShutterSpeed.ss420",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 489,
+      "symbol": "ShutterSpeed.ss480",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 490,
+      "symbol": "ShutterSpeed.ss540",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 491,
+      "symbol": "ShutterSpeed.ss600",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 492,
+      "symbol": "ShutterSpeed.ss660",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 493,
+      "symbol": "ShutterSpeed.ss720",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 494,
+      "symbol": "ShutterSpeed.ss780",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 495,
+      "symbol": "ShutterSpeed.ss840",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 496,
+      "symbol": "ShutterSpeed.ss900",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 497,
+      "symbol": "ShutterSpeed.ss960",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 498,
+      "symbol": "ShutterSpeed.ss1020",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 499,
+      "symbol": "ShutterSpeed.ss1080",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 500,
+      "symbol": "ShutterSpeed.ss1140",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/ShutterSpeed.swift",
+      "line": 501,
+      "symbol": "ShutterSpeed.ss1200",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageCaptureFormat.swift",
+      "line": 34,
+      "symbol": "StillImageCaptureFormat.JPEG",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageCaptureFormat.swift",
+      "line": 35,
+      "symbol": "StillImageCaptureFormat.PEF",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageCaptureFormat.swift",
+      "line": 36,
+      "symbol": "StillImageCaptureFormat.DNG",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageCaptureFormat.swift",
+      "line": 37,
+      "symbol": "StillImageCaptureFormat.PEFAndJPEG",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageCaptureFormat.swift",
+      "line": 38,
+      "symbol": "StillImageCaptureFormat.DNGAndJPEG",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 55,
+      "symbol": "StillImageQuality.largeGood",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 56,
+      "symbol": "StillImageQuality.largeBetter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 57,
+      "symbol": "StillImageQuality.largeBest",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 58,
+      "symbol": "StillImageQuality.mediumGood",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 59,
+      "symbol": "StillImageQuality.mediumBetter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 60,
+      "symbol": "StillImageQuality.mediumBest",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 61,
+      "symbol": "StillImageQuality.smallGood",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 62,
+      "symbol": "StillImageQuality.smallBetter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 63,
+      "symbol": "StillImageQuality.smallBest",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 64,
+      "symbol": "StillImageQuality.extraSmallGood",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 65,
+      "symbol": "StillImageQuality.extraSmallBetter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/StillImageQuality.swift",
+      "line": 66,
+      "symbol": "StillImageQuality.extraSmallBest",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 85,
+      "symbol": "WhiteBalance.undefined",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 86,
+      "symbol": "WhiteBalance.auto",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 87,
+      "symbol": "WhiteBalance.multiAuto",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 88,
+      "symbol": "WhiteBalance.daylight",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 89,
+      "symbol": "WhiteBalance.tungsten",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 90,
+      "symbol": "WhiteBalance.shade",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 91,
+      "symbol": "WhiteBalance.cloudy",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 92,
+      "symbol": "WhiteBalance.fluorescentDaylight",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 93,
+      "symbol": "WhiteBalance.fluorescentDaylightWhite",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 94,
+      "symbol": "WhiteBalance.fluorescentCoolWhite",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 95,
+      "symbol": "WhiteBalance.fluorescentWarmWhite",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 96,
+      "symbol": "WhiteBalance.manual",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 97,
+      "symbol": "WhiteBalance.manual2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 98,
+      "symbol": "WhiteBalance.manual3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 99,
+      "symbol": "WhiteBalance.colorTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 100,
+      "symbol": "WhiteBalance.colorTemperature2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 101,
+      "symbol": "WhiteBalance.colorTemperature3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 102,
+      "symbol": "WhiteBalance.CTE",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 103,
+      "symbol": "WhiteBalance.incandescent",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 104,
+      "symbol": "WhiteBalance.custom",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 105,
+      "symbol": "WhiteBalance.outdoor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/Setting/Capture/WhiteBalance.swift",
+      "line": 106,
+      "symbol": "WhiteBalance.flash",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageListImagesState.swift",
+      "line": 11,
+      "symbol": "StorageListImagesState.notListed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageListImagesState.swift",
+      "line": 12,
+      "symbol": "StorageListImagesState.listing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageListImagesState.swift",
+      "line": 13,
+      "symbol": "StorageListImagesState.pending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageListImagesState.swift",
+      "line": 14,
+      "symbol": "StorageListImagesState.listed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageListImagesState.swift",
+      "line": 15,
+      "symbol": "StorageListImagesState.interrupted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StoragePermission.swift",
+      "line": 9,
+      "symbol": "StoragePermission.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StoragePermission.swift",
+      "line": 10,
+      "symbol": "StoragePermission.readWrite",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StoragePermission.swift",
+      "line": 11,
+      "symbol": "StoragePermission.read",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageType.swift",
+      "line": 8,
+      "symbol": "StorageType.fixedRam",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/user/work/wireless-sdk-for-ios/Source/Api/StorageType.swift",
+      "line": 9,
+      "symbol": "StorageType.removableRam",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/user/work/wireless-sdk-for-ios"
+}

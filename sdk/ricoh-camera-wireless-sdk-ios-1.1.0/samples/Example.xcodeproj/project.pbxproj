@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201041A81FA4124B00EA6941 /* AvailableCaptureSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201041A71FA4124B00EA6941 /* AvailableCaptureSettingTableViewController.swift */; };
+		2020274C1FA83B76002BE69F /* AvailableCameraDeviceSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020274B1FA83B76002BE69F /* AvailableCameraDeviceSettingTableViewController.swift */; };
+		2026AE9D1F7DC64C00EBC463 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026AE9C1F7DC64C00EBC463 /* ActionViewController.swift */; };
+		2070172E1F7CD3CA005C2663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070172D1F7CD3CA005C2663 /* AppDelegate.swift */; };
+		207017301F7CD3CA005C2663 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2070172F1F7CD3CA005C2663 /* DeviceViewController.swift */; };
+		207017331F7CD3CA005C2663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207017311F7CD3CA005C2663 /* Main.storyboard */; };
+		207017351F7CD3CA005C2663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207017341F7CD3CA005C2663 /* Assets.xcassets */; };
+		207017381F7CD3CA005C2663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207017361F7CD3CA005C2663 /* LaunchScreen.storyboard */; };
+		2089DD161F7E2CBA00230E80 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089DD151F7E2CBA00230E80 /* ImagesTableViewController.swift */; };
+		2089DD1B1F7E2DC500230E80 /* CaptureSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089DD1A1F7E2DC500230E80 /* CaptureSettingsViewController.swift */; };
+		2089DD1D1F7E2DD500230E80 /* CameraSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089DD1C1F7E2DD500230E80 /* CameraSettingsViewController.swift */; };
+		20B6737E1FA12D6F0092CC29 /* CameraImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B6737D1FA12D6F0092CC29 /* CameraImageTableViewCell.swift */; };
+		20CF295E1F7D7A530020EA6A /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF295D1F7D7A530020EA6A /* Globals.swift */; };
+		20F4A86A1FA6D55B00A8D5C7 /* WiFiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F4A8691FA6D55B00A8D5C7 /* WiFiSettingViewController.swift */; };
+		20F4A86F1FA6D57100A8D5C7 /* CameraTimeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F4A86E1FA6D57100A8D5C7 /* CameraTimeSettingViewController.swift */; };
+		20FC5EB01FA0B78C000CCE2B /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC5EAF1FA0B78C000CCE2B /* ImageDetailViewController.swift */; };
+		CE29CF2420103F2E0013EDA6 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE29CF2320103F2E0013EDA6 /* SwiftWebSocket.framework */; };
+		CE29CF2620103FB60013EDA6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE29CF2520103FB50013EDA6 /* Alamofire.framework */; };
+		CE29CF2E201059C10013EDA6 /* RICOHCameraWirelessSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE29CF0C200F7D050013EDA6 /* RICOHCameraWirelessSDK.framework */; };
+		CE29CF2F201059C10013EDA6 /* RICOHCameraWirelessSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE29CF0C200F7D050013EDA6 /* RICOHCameraWirelessSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE29CF30201059C10013EDA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE29CF2F201059C10013EDA6 /* RICOHCameraWirelessSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		201041A71FA4124B00EA6941 /* AvailableCaptureSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableCaptureSettingTableViewController.swift; sourceTree = "<group>"; };
+		2020274B1FA83B76002BE69F /* AvailableCameraDeviceSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableCameraDeviceSettingTableViewController.swift; sourceTree = "<group>"; };
+		2026AE9C1F7DC64C00EBC463 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		2070172A1F7CD3CA005C2663 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2070172D1F7CD3CA005C2663 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2070172F1F7CD3CA005C2663 /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		207017321F7CD3CA005C2663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		207017341F7CD3CA005C2663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207017371F7CD3CA005C2663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		207017391F7CD3CA005C2663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089DD151F7E2CBA00230E80 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
+		2089DD1A1F7E2DC500230E80 /* CaptureSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSettingsViewController.swift; sourceTree = "<group>"; };
+		2089DD1C1F7E2DD500230E80 /* CameraSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSettingsViewController.swift; sourceTree = "<group>"; };
+		20B6737D1FA12D6F0092CC29 /* CameraImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraImageTableViewCell.swift; sourceTree = "<group>"; };
+		20CF295D1F7D7A530020EA6A /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		20F4A8691FA6D55B00A8D5C7 /* WiFiSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiSettingViewController.swift; sourceTree = "<group>"; };
+		20F4A86E1FA6D57100A8D5C7 /* CameraTimeSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTimeSettingViewController.swift; sourceTree = "<group>"; };
+		20FC5EAF1FA0B78C000CCE2B /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		CE29CF0C200F7D050013EDA6 /* RICOHCameraWirelessSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RICOHCameraWirelessSDK.framework; path = lib/RICOHCameraWirelessSDK.framework; sourceTree = "<group>"; };
+		CE29CF2320103F2E0013EDA6 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftWebSocket.framework; path = Carthage/Build/iOS/SwiftWebSocket.framework; sourceTree = "<group>"; };
+		CE29CF2520103FB50013EDA6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207017271F7CD3CA005C2663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE29CF2E201059C10013EDA6 /* RICOHCameraWirelessSDK.framework in Frameworks */,
+				CE29CF2620103FB60013EDA6 /* Alamofire.framework in Frameworks */,
+				CE29CF2420103F2E0013EDA6 /* SwiftWebSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20411F461F7CD595003D13BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2070172D1F7CD3CA005C2663 /* AppDelegate.swift */,
+				20B673711FA12C440092CC29 /* Device */,
+				20B673721FA12C500092CC29 /* Action */,
+				20B6736D1FA12C320092CC29 /* Images */,
+				20B673731FA12C5E0092CC29 /* CaptureSettings */,
+				20B673741FA12C6B0092CC29 /* CameraSettings */,
+				207017311F7CD3CA005C2663 /* Main.storyboard */,
+				207017361F7CD3CA005C2663 /* LaunchScreen.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		207017211F7CD3CA005C2663 = {
+			isa = PBXGroup;
+			children = (
+				2070172C1F7CD3CA005C2663 /* Example */,
+				2070172B1F7CD3CA005C2663 /* Products */,
+				CE29CF08200F7D040013EDA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2070172B1F7CD3CA005C2663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2070172A1F7CD3CA005C2663 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2070172C1F7CD3CA005C2663 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				20CF295D1F7D7A530020EA6A /* Globals.swift */,
+				20411F461F7CD595003D13BA /* iOS */,
+				207017341F7CD3CA005C2663 /* Assets.xcassets */,
+				207017391F7CD3CA005C2663 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		20B6736D1FA12C320092CC29 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2089DD151F7E2CBA00230E80 /* ImagesTableViewController.swift */,
+				20FC5EAF1FA0B78C000CCE2B /* ImageDetailViewController.swift */,
+				20B6737D1FA12D6F0092CC29 /* CameraImageTableViewCell.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		20B673711FA12C440092CC29 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				2070172F1F7CD3CA005C2663 /* DeviceViewController.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		20B673721FA12C500092CC29 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				2026AE9C1F7DC64C00EBC463 /* ActionViewController.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		20B673731FA12C5E0092CC29 /* CaptureSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2089DD1A1F7E2DC500230E80 /* CaptureSettingsViewController.swift */,
+				201041A71FA4124B00EA6941 /* AvailableCaptureSettingTableViewController.swift */,
+			);
+			path = CaptureSettings;
+			sourceTree = "<group>";
+		};
+		20B673741FA12C6B0092CC29 /* CameraSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2089DD1C1F7E2DD500230E80 /* CameraSettingsViewController.swift */,
+				20F4A86E1FA6D57100A8D5C7 /* CameraTimeSettingViewController.swift */,
+				20F4A8691FA6D55B00A8D5C7 /* WiFiSettingViewController.swift */,
+				2020274B1FA83B76002BE69F /* AvailableCameraDeviceSettingTableViewController.swift */,
+			);
+			path = CameraSettings;
+			sourceTree = "<group>";
+		};
+		CE29CF08200F7D040013EDA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE29CF2520103FB50013EDA6 /* Alamofire.framework */,
+				CE29CF2320103F2E0013EDA6 /* SwiftWebSocket.framework */,
+				CE29CF0C200F7D050013EDA6 /* RICOHCameraWirelessSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		207017291F7CD3CA005C2663 /* Example-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207017521F7CD3CB005C2663 /* Build configuration list for PBXNativeTarget "Example-iOS" */;
+			buildPhases = (
+				207017261F7CD3CA005C2663 /* Sources */,
+				207017271F7CD3CA005C2663 /* Frameworks */,
+				207017281F7CD3CA005C2663 /* Resources */,
+				20411F4C1F7CD77B003D13BA /* ShellScript */,
+				CE29CF30201059C10013EDA6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example-iOS";
+			productName = Example;
+			productReference = 2070172A1F7CD3CA005C2663 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207017221F7CD3CA005C2663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ricoh Co., Ltd.";
+				TargetAttributes = {
+					207017291F7CD3CA005C2663 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 207017251F7CD3CA005C2663 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207017211F7CD3CA005C2663;
+			productRefGroup = 2070172B1F7CD3CA005C2663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				207017291F7CD3CA005C2663 /* Example-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		207017281F7CD3CA005C2663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207017381F7CD3CA005C2663 /* LaunchScreen.storyboard in Resources */,
+				207017351F7CD3CA005C2663 /* Assets.xcassets in Resources */,
+				207017331F7CD3CA005C2663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20411F4C1F7CD77B003D13BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftWebSocket.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftWebSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		207017261F7CD3CA005C2663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2089DD1B1F7E2DC500230E80 /* CaptureSettingsViewController.swift in Sources */,
+				20CF295E1F7D7A530020EA6A /* Globals.swift in Sources */,
+				20F4A86A1FA6D55B00A8D5C7 /* WiFiSettingViewController.swift in Sources */,
+				2020274C1FA83B76002BE69F /* AvailableCameraDeviceSettingTableViewController.swift in Sources */,
+				2089DD161F7E2CBA00230E80 /* ImagesTableViewController.swift in Sources */,
+				20B6737E1FA12D6F0092CC29 /* CameraImageTableViewCell.swift in Sources */,
+				207017301F7CD3CA005C2663 /* DeviceViewController.swift in Sources */,
+				2026AE9D1F7DC64C00EBC463 /* ActionViewController.swift in Sources */,
+				2089DD1D1F7E2DD500230E80 /* CameraSettingsViewController.swift in Sources */,
+				201041A81FA4124B00EA6941 /* AvailableCaptureSettingTableViewController.swift in Sources */,
+				20F4A86F1FA6D57100A8D5C7 /* CameraTimeSettingViewController.swift in Sources */,
+				2070172E1F7CD3CA005C2663 /* AppDelegate.swift in Sources */,
+				20FC5EB01FA0B78C000CCE2B /* ImageDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		207017311F7CD3CA005C2663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207017321F7CD3CA005C2663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		207017361F7CD3CA005C2663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				207017371F7CD3CA005C2663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		207017501F7CD3CB005C2663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207017511F7CD3CB005C2663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207017531F7CD3CB005C2663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Lib",
+					"$(SRCROOT)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricoh.RICOHCameraWirelessSDK.Example;
+				PRODUCT_NAME = Example;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		207017541F7CD3CB005C2663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Lib",
+					"$(SRCROOT)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricoh.RICOHCameraWirelessSDK.Example;
+				PRODUCT_NAME = Example;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207017251F7CD3CA005C2663 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207017501F7CD3CB005C2663 /* Debug */,
+				207017511F7CD3CB005C2663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207017521F7CD3CB005C2663 /* Build configuration list for PBXNativeTarget "Example-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207017531F7CD3CB005C2663 /* Debug */,
+				207017541F7CD3CB005C2663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207017221F7CD3CA005C2663 /* Project object */;
+}
