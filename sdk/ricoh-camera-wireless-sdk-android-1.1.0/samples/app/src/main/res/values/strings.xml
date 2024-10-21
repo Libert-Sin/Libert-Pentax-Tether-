@@ -1,0 +1,32 @@
+<resources>
+    <!--app-->
+    <string name="app_name">Sample App</string>
+    <!--tab name-->
+    <string name="tab_device">Device</string>>
+    <string name="tab_action">Action</string>>
+    <string name="tab_image_list">Image List</string>>
+    <string name="tab_capture_settings">Capture Setting</string>>
+    <string name="tab_camera_settings">Camera Setting</string>>
+    <!--action-->
+    <string name="connect">connect</string>
+    <string name="disconnect">disconnect</string>
+    <string name="start_liveview">start liveview</string>
+    <string name="stop_liveview">stop liveview</string>
+    <string name="start_shoot">start shoot</string>
+    <string name="start_shoot_with_focus">start shoot with focus</string>
+    <string name="stop_shoot">stop shoot</string>
+    <!--action result-->
+    <string name="succeed">Succeed to %s</string>
+    <string name="failed">Failed to %s</string>
+    <string name="unsupport">Not support to %s</string>
+    <!--event-->
+    <string name="event_image_stored">ImageStored %s</string>
+    <string name="event_capture_complete">CaptureComplete %s</string>
+    <string name="event_device_disconnected">DeviceDisconnected</string>
+    <!--etc-->
+    <string name="not_find">Can not find cameras</string>>
+    <string name="updated">updated: </string>
+    <string name="format_err">Format error %s</string>
+    <string name="downloading">Downloading...</string>
+    <string name="only_format">This sample supports only %s format</string>
+</resources>

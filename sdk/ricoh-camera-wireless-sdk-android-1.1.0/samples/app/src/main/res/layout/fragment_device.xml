@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ricoh.camera.sdk.wireless.sample.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_device_info_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="**DEVICE**" />
+
+    <LinearLayout
+        android:id="@+id/layout_manufacture"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_device_info_label" >
+
+        <TextView
+            android:id="@+id/text_view_manufacture_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="manufacture:" />
+
+        <TextView
+            android:id="@+id/text_view_manufacture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_model"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_manufacture" >
+
+        <TextView
+            android:id="@+id/text_view_model_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="model:" />
+
+        <TextView
+            android:id="@+id/text_view_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_firmware"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_model" >
+
+        <TextView
+            android:id="@+id/text_view_firmware_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="firmware:" />
+
+        <TextView
+            android:id="@+id/text_view_firmware"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_serial_number"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_firmware" >
+
+        <TextView
+            android:id="@+id/text_view_serial_number_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="serial number:" />
+
+        <TextView
+            android:id="@+id/text_view_serial_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_battery_level"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_serial_number" >
+
+        <TextView
+            android:id="@+id/text_view_battery_level_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="battery level:" />
+
+        <TextView
+            android:id="@+id/text_view_battery_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>>
+
+    <TextView
+        android:id="@+id/text_view_storage_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_battery_level"
+        android:text="storage:" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_storage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/text_view_storage_label" >
+
+        <TextView
+            android:id="@+id/text_view_storage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text_view_event_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="**EVENT**"
+        android:layout_below="@+id/scroll_view_storage" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_event"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/text_view_event_label" >
+
+        <TextView
+            android:id="@+id/text_view_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_connection"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_view_event" >
+
+        <Button
+            android:id="@+id/button_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/connect" />
+
+        <Button
+            android:id="@+id/button_disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disconnect" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_connection_state"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_below="@+id/layout_connection" >
+
+        <TextView
+            android:id="@+id/text_view_connection_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

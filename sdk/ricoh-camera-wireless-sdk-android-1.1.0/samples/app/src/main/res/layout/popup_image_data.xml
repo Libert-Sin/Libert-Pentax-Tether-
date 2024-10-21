@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_image_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/simple_frame">
+
+    <LinearLayout
+        android:id="@+id/layout_image_view_download_image"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/image_view_download_image"
+            android:layout_width="380dp"
+            android:layout_height="380dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/alert_dark_frame" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_download_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/layout_image_view_download_image" />
+
+    <LinearLayout
+        android:id="@+id/layout_button_close"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_download_state"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+
+    </LinearLayout>
+
+</LinearLayout>

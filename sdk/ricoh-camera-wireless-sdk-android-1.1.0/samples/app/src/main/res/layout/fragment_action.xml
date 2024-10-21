@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ricoh.camera.sdk.wireless.sample.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view_liveview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@android:drawable/alert_dark_frame" />
+
+    <TextView
+        android:id="@+id/text_view_liveview_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/image_view_liveview" />
+
+    <LinearLayout
+        android:id="@+id/layout_liveview_handle"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_liveview_state" >
+
+        <Button
+            android:id="@+id/button_liveview_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_liveview" />
+
+        <Button
+            android:id="@+id/button_liveview_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_liveview"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_shoot_option"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_liveview_handle" >
+
+        <Button
+            android:id="@+id/button_shoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_shoot" />
+
+        <Button
+            android:id="@+id/button_shoot_with_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_shoot_with_focus" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_shoot_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_shoot"
+        android:layout_below="@+id/layout_shoot_option" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_below="@+id/button_focus" >
+
+        <TextView
+            android:id="@+id/text_view_action_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

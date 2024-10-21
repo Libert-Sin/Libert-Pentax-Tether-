@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_setting_wifi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/simple_frame">
+
+    <TextView
+        android:id="@+id/text_view_setting_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Capture Setting"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/edit_text_view_ssid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_setting_name"
+        android:gravity="center_horizontal"
+        android:text="xxxxxxxxxxxxx" />
+
+    <EditText
+        android:id="@+id/edit_text_view_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_view_ssid"
+        android:gravity="center_horizontal"
+        android:text="xxxxxxxx" />
+
+    <Spinner
+        android:id="@+id/spinner_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_view_key"
+        android:gravity="center_horizontal"
+        android:spinnerMode="dialog" />
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/spinner_channel">
+
+        <Button
+            android:id="@+id/button_apply_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply" />
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_setting_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/layout_button"
+        android:layout_marginBottom="5dp" />
+
+</LinearLayout>
